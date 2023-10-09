@@ -15,6 +15,14 @@
           type='text'
           id="goal"
           placeholder="What's your goal?"/>
+      <input
+        type="text"
+        id="status"
+        placeholder="Status of the goal:">
+        <!-- <input
+        type="text"
+        id="id"
+        placeholder="ID:"> -->
       <!-- <section id="urgency-container">
           <p>How urgent is your goal?</p>
           <div id="radio-container">
@@ -64,6 +72,28 @@
   </form>
 
     <section id="user-info"></section>
+
+  <form id="form2">
+    <input 
+          type='text'
+          id="change"
+          placeholder="Update status"/>
+    <input 
+          type='text'
+          id="idChange"
+          placeholder="ID:"/>         
+    <button>update goal</button>
+  </form>
+
+  <form id="form3">
+    <input 
+          type='text'
+          id="delete"
+          placeholder="ID:"/>         
+    <button>delete goal</button>
+  </form>
+
+
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>

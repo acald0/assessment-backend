@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "goal": "Buy a dog",
+        "status": "Finished"
+    },
+    {
+        "id": 2,
+        "goal": "Buy two dog",
+        "status": "Started"
+    }
+]
